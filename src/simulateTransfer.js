@@ -15,8 +15,8 @@ async function main() {
         signer
     );
 
-    const receiver = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"; // another anvil account
-    const amount = ethers.parseUnits("1.0", 6); // 1 USDC (6 decimals)
+    const receiver = "0x128b0f7b83cba7d6851124c5967fbbc5b17f4c9f"; // another anvil account
+    const amount = ethers.parseUnits("50000000.0", 6); 
 
     const tx = await token.transfer(receiver, amount);
     console.log("Transfer Tx sent:", tx.hash);

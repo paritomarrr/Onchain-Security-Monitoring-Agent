@@ -17,3 +17,5 @@ Build an autonomous onchain agent that monitors blockchain smart contracts for s
 - Optional cloud deployment (Render, Railway, AWS)
 
 
+
+
