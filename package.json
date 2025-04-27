@@ -1,0 +1,20 @@
+{
+    "name": "onchain-security-agent",
+    "version": "1.0.0",
+    "description": "A simple security monitoring agent for smart contracts.",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^5.3.0",
+        "axios": "^1.4.0",
+        "dotenv": "^10.0.0",
+        "ethers": "^6.7.0"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    }
+}
